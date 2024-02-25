@@ -1,0 +1,31 @@
+{
+  "name": "vc-currency-converter",
+  "version": "1.0.0",
+  "description": "An npm package to convert currency",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibhavchaubey/vc-currency-converter.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Vaibhav Chaubey",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vaibhavchaubey/vc-currency-converter/issues"
+  },
+  "homepage": "https://github.com/vaibhavchaubey/vc-currency-converter#readme",
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
